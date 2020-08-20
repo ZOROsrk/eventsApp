@@ -12,4 +12,8 @@
     <color name="lightBlue">#e6f2ff</color>
     <color name="textBlue">#268eff</color>
     <color name="deepBlue">#425186</color>
+    <color name="greyDate">#cdcfd1</color>
+    <color name="timeBackgroundGreen">#e8feed</color>
+    <color name="greenJoinBtnColor">#00bb5a</color>
+    <color name="lightGrey">#D8D8D8</color>
 </resources>
