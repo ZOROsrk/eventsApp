@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EventsActivity"></activity>
-        <activity android:name=".EventsMainPage">
+        <activity
+            android:name=".SignUpActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            ></activity>
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".EventsMainPage" /> <!-- first page to be shown -->
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

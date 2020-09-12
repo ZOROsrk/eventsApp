@@ -16,4 +16,9 @@
     <color name="timeBackgroundGreen">#e8feed</color>
     <color name="greenJoinBtnColor">#00bb5a</color>
     <color name="lightGrey">#D8D8D8</color>
+<!--    login/signUp-->
+    <color name="textHeading">#43469C</color>
+    <color name="editTextBackground">#f7f7f8</color>
+    <color name="registerBtn">#363994</color>
+    <color name="editTextSubHeading">#1D1A2F</color>
 </resources>
