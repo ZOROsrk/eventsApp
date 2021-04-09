@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.eventsapp">
-
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,13 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".LoginActivity"
             android:windowSoftInputMode="adjustResize|stateHidden"
             ></activity>
-        <activity android:name=".EventsActivity" />
-        <activity android:name=".EventsMainPage" /> <!-- first page to be shown -->
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".EventsMainPage" />
+        <!-- first page to be shown -->
         <activity
-            android:name=".LoginActivity"
+            android:name=".EventsActivity"
             android:windowSoftInputMode="adjustResize|stateHidden">
 
             <intent-filter>
